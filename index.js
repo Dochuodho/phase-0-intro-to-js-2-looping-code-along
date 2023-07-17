@@ -1,7 +1,7 @@
 // Code your solutions in this file
 
 for (let age=30; age < 40; age++) {
-    console.log(`I'm ${age} years old. Happy birthday to me!`);
+    console.log(age);
     
 }
 
@@ -17,3 +17,16 @@ function wrapGifts(gifts){
 }
 
 wrapGifts(gifts);
+
+
+
+ function countDown(int){
+    let number=10;
+    while (number>0){
+        console.log(number);
+        number=number-1;
+        
+    }
+}
+console.log(countDown(10));
+
